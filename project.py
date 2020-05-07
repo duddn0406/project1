@@ -25,4 +25,4 @@ async def kick (ctx, member : discord.Member, *, reason=None):
 
 
 
-bot.run('NzAxNzcwNTI1MjY5MTY0MTAy.XrPSMg.fYSYvzZCFA-IPZEOUrQ-LVWYiJ0 ')
+bot.run('토큰')
