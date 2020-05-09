@@ -23,6 +23,9 @@ async def kick (ctx, member : discord.Member, *, reason=None):
     await member.kick(reason=reason)
 
 
+@bot.command()
+async def 말해 (ctx, usermessage):
+    await ctx send(usermessage)
 
 
-bot.run('NzAxNzcwNTI1MjY5MTY0MTAy.XrPSMg.fYSYvzZCFA-IPZEOUrQ-LVWYiJ0 ')
+bot.run('토큰')
